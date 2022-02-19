@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using NUnit.Framework;
-
+using Scripts.Character;
+using Scripts.BattleSystem;
+using UnityEngine.TestTools;
 
 /*
 All Characters, when created, have:
@@ -20,85 +22,52 @@ Dead characters cannot be healed
 Healing cannot raise health above 1000
 */
 
-public class CharacterShould
-{ 
-    private int expectedLife;
-    private int expectedLevel;
-    private Character character;
-
-    [SetUp]
-    public void CharacterSetUp() 
-    {
-        character = new Character();
-        expectedLevel = 1;
-        expectedLife = 1000;
-    }
-
-    [Test]
-    public void ShouldInitializeWithExpectedLife() 
-    {
-        //Act
-        //Assert
-        Assert.AreEqual(character.GetCurrentLife(), expectedLife);
-    }
-
-    [Test]
-    public void ShouldInitializeWithExpectedLevel() 
-    {
-        Assert.AreEqual(character.GetCurrentLevel(), expectedLevel);
-    } 
-
-    [Test]
-    public void ShouldInitializeAlive() 
-    {
-        Assert.IsTrue(character.IsAlive());
-    }
-
-    [Test]
-    public void ShouldSubstractHealthWhenCharacterAttacks() 
-    {
-        var expectedCurrentLife = 20;
-        //Mock Character - Attack
-        var enemy = new Character();
-        //var damage
-        //Damage currentCharacter 
-        character.ReceiveDamage(0);
-        //Assert CurrentLife 
-        Assert.Less(character.GetCurrentLife(), expectedCurrentLife);
-    }
-}
-
-public class Character
+namespace Tests
 {
-    private const int maxLife = 1000;
-    private int currentLife;
-    private int currentLevel;
-    private bool isAlive;
-
-    public Character() 
+    public class CharacterShould
     {
-        currentLife = maxLife;
-        currentLevel = 1;
-        isAlive = true;
-    }
+        private int expectedLife;
+        private int expectedLevel;
+        private Character character;
 
-    public int GetCurrentLife() 
-    {
-        return currentLife;
-    }
+        [SetUp]
+        public void CharacterSetUp()
+        {
+            character = new Character();
+            expectedLevel = 1;
+            expectedLife = 1000;
+        }
 
-    public int GetCurrentLevel() 
-    {
-        return currentLevel;
-    }
+        [Test]
+        public void ShouldInitializeWithExpectedLife()
+        {
+            Assert.AreEqual(character.GetCurrentLife(), expectedLife);
+        }
 
-    public bool IsAlive() 
-    {
-        return isAlive;
-    }
+        [Test]
+        public void ShouldInitializeWithExpectedLevel()
+        {
+            Assert.AreEqual(character.GetCurrentLevel(), expectedLevel);
+        }
 
-    public void ReceiveDamage(int damage) 
-    {
+        [Test]
+        public void ShouldInitializeAlive()
+        {
+            Assert.IsTrue(character.IsAlive());
+        }
 
+        [Test]
+        public void ShouldSubstractHealthWhenCharacterAttacks()
+        {
+            BattleSystem battleSystem = new BattleSystem();
+
+            ICharacter dummyEnemy = new Character();
+
+            var beforeLifeToDecrease = dummyEnemy.GetCurrentLife();
+
+            battleSystem.CharacterWantsToAttack(character, dummyEnemy);
+
+            Assert.Less(dummyEnemy.GetCurrentLife(), beforeLifeToDecrease);
+        }
     }
 }
