@@ -32,6 +32,16 @@ When dealing damage:
 If the target is 5 or more Levels above the attacker, Damage is reduced by 50%
 If the target is 5 or more Levels below the attacker, Damage is increased by 50%
 
+//------------------------------ITERATION THREE --------------------------------------------------------
+ 
+- Characters have an attack Max Range.
+
+- Melee fighters have a range of 2 meters.
+
+- Ranged fighters have a range of 20 meters.
+
+- Characters must be in range to deal damage to a target.
+  
 */
 
 namespace Tests
@@ -183,5 +193,36 @@ namespace Tests
 
             Assert.AreEqual(lifebeforeToDecrease - realDamage, dummyEnemy.GetCurrentLife());
         }
+
+        /* TEST APARTE PARA LOS ROLES?
+            El test está bien para el character?
+            Hacemos otro test para ver si el role se crea bien o con uno solo va?
+                
+        */
+        [Test]
+        public void HaveAnAttackRangeOfTwoIfIsMelee()
+        {
+            IRoleClass roleClass = new MeleeRole();
+            character = new Character(roleClass);
+            Assert.AreEqual(character.GetRole().GetAttackRange(), 2);
+        }
+
+        [Test]
+        public void HaveRangeOfTwentyIfIsRange()
+        {
+            IRoleClass roleClass = new RangedRole();
+            character = new Character(roleClass);
+            Assert.AreEqual(character.GetRole().GetAttackRange(), 20);
+        }
+
+        [Test]
+        public void BeInRangeToMakeAnAttack()
+        {
+
+            Assert.AreEqual();
+        }
+
+
+
     }
 }

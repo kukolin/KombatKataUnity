@@ -14,6 +14,9 @@ namespace Scripts.Character
         bool IsAlive();
         int GetHealPowerAmount();
         void ReceiveHealing(int amount);
+        IRoleClass GetRole();
+        int GetPosition();
+     
     }
 }
 

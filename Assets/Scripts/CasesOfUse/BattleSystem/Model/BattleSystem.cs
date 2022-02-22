@@ -16,7 +16,7 @@ namespace Scripts.BattleSystem
         }
         public void SetCharacters(List<ICharacter> characters)
         {
-            characters.AddRange(characters);
+            this.characters.AddRange(characters);
         }
         public void CharacterWantsToAttack(ICharacter attacker, ICharacter receiver)
         {

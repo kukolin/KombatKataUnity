@@ -16,12 +16,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-    width: 1920
-    height: 989
+    width: 2560
+    height: 1357
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -44,8 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 989
+    width: 2560
+    height: 1357
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
@@ -65,7 +65,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 2560
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -86,8 +86,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 969
-    width: 1920
+    y: 1337
+    width: 2560
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -110,12 +110,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 939
-  m_MinSize: {x: 503, y: 492}
+    width: 2560
+    height: 1307
+  m_MinSize: {x: 504, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 56
+  controlID: 86
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,12 +135,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1468
-    height: 939
-  m_MinSize: {x: 402, y: 492}
+    width: 1957
+    height: 1307
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 57
+  controlID: 87
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,12 +160,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1468
-    height: 581
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+    width: 1957
+    height: 809
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 58
+  controlID: 62
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,8 +183,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 268
-    height: 581
+    width: 357
+    height: 809
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
@@ -207,10 +207,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 268
+    x: 357
     y: 0
-    width: 1200
-    height: 581
+    width: 1600
+    height: 809
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
@@ -236,9 +236,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 581
-    width: 1468
-    height: 358
+    y: 809
+    width: 1957
+    height: 498
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
@@ -262,12 +262,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1468
+    x: 1957
     y: 0
-    width: 452
-    height: 939
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 603
+    height: 1307
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 18}
@@ -389,15 +389,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 267
-    height: 560
+    width: 356
+    height: 788
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 38b6ffff3cb7ffffbab7ffff36b8ffffcabbffff9ebeffff96bfffffe4c7ffff0ccaffff92cbffff32ccffff98ccffffecccffffe2cdffffc2d0ffffeed0ffff82d1ffff8cd1ffffced1ffff42d2ffff84d2ffff40d3ffff84d3fffff4d3ffff36d4ffff98d5ffffe2d5ffffe6d6ffff26d7ffff90d7ffffd6d7ffff3cd8ffff7ad8ffffd0d9ffff10daffff28daffff4cdaffffa8dbffffe4dbffff52dcffff94dcfffffedcffff22ddffff38deffff5cdeffffc8deffff04dfffff5ce0ffff80e0ffffe8e0ffff24e1ffffdae1ffff12e2ffffc2e2fffffae2ffffc8e5ffff00e6ffff66e6ffff8ae6fffface6ffffe4e6ffff52e7ffff8ee7ffff0ceaffff30eaffff06ebffff2aebffff30ecffff54ecffffc4ecffffe8ecffff9cedffffc0edffff2ceeffff50eeffffb8eeffffdceeffff42efffff66efffffd0effffff4efffffa8f0ffffccf0ffff9cf3ffffc0f3ffff76f4ffffaaf4fffffef5ffff22f6ffffe2f6ffff16f7ffff7af7ffffaef7ffff02f9ffff38f9ffffb4faffff
+      m_ExpandedIDs: 54bdffffacbdffff14beffff72beffffdabeffff32bfffff7ec0ffffd6c0ffffc8c4ffff1cc5ffff8ec5ffffe2c5ffff4ec6ffffa4c6ffffeac8ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -442,10 +442,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 268
+    x: 357
     y: 73
-    width: 1198
-    height: 560
+    width: 1598
+    height: 788
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -500,7 +500,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0.1, y: 0.1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
@@ -585,9 +585,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 654
-    width: 1467
-    height: 337
+    y: 882
+    width: 1956
+    height: 477
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -602,34 +602,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/CasesOfUse/PositionSystem
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/CasesOfUse/PositionSystem
   m_LastFoldersGridSize: 60
-  m_LastProjectPath: D:\Proyectos Unity\KombatKata\KombatKataUnity
+  m_LastProjectPath: D:\UNITY\PROYECTOS\CombatKataCoop\UnityPlayer.dll
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 93.452515}
-    m_SelectedIDs: 443c0000
-    m_LastClickedID: 15428
-    m_ExpandedIDs: 00000000423c0000463c0000483c0000503c0000563c00009c3c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ee570000
+    m_LastClickedID: 22510
+    m_ExpandedIDs: 00000000965700009a5700009c5700009e570000a257000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Assemblies
-      m_OriginalName: Assemblies
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 15516
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -721,9 +721,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 525.60004
-    width: 1173
-    height: 250
+    y: 882
+    width: 1956
+    height: 477
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
@@ -746,10 +746,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1174.4
-    y: 73.6
-    width: 361
-    height: 702
+    x: 1957
+    y: 73
+    width: 602
+    height: 1286
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization:
@@ -762,7 +762,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 15438
+  m_LastInspectedObjectInstanceID: 22412
   m_LastVerticalScrollValue: 0
 --- !u!114 &19
 MonoBehaviour:
@@ -784,22 +784,22 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1468
+    x: 1957
     y: 73
-    width: 451
-    height: 918
+    width: 602
+    height: 1286
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 408
+    ID: 1018
     splitterInitialOffset: 0
     currentActiveSplitter: -1
-    realSizes: 7c020000d4000000
+    realSizes: 9003000030010000
     relativeSizes:
     - 0.75
     - 0.25
     minSizes: 2000000020000000
     maxSizes: 0000000000000000
-    lastTotalSize: 848
+    lastTotalSize: 1216
     splitSize: 6
     xOffset: 0
   m_TestTypeToolbarIndex: 1
@@ -845,9 +845,9 @@ MonoBehaviour:
       uniqueId: '[CombatKata][suite]'
       name: CombatKata
       fullName: CombatKata
-      resultStatus: 2
-      duration: 0.240466
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.1942661
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -857,13 +857,13 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1007
+    - id: 1015
       uniqueId: '[Tests.dll][suite]'
       name: Tests.dll
-      fullName: D:/Proyectos Unity/KombatKata/KombatKataUnity/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 2
-      duration: 0.1975323
-      messages: One or more child tests had errors
+      fullName: D:/UNITY/PROYECTOS/CombatKataCoop/UnityPlayer.dll/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 1
+      duration: 0.1677064
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -873,13 +873,13 @@ MonoBehaviour:
       categories: []
       parentId: 1000
       parentUniqueId: '[CombatKata][suite]'
-    - id: 1008
+    - id: 1016
       uniqueId: Tests.dll/[Tests][suite]
       name: Tests
       fullName: Tests
-      resultStatus: 2
-      duration: 0.1957122
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.165631
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -887,15 +887,15 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1007
+      parentId: 1015
       parentUniqueId: '[Tests.dll][suite]'
     - id: 1001
       uniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
       name: CharacterShould
       fullName: Tests.CharacterShould
-      resultStatus: 2
-      duration: 0.1939178
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.1637
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -903,14 +903,31 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1008
+      parentId: 1016
       parentUniqueId: Tests.dll/[Tests][suite]
     - id: 1008
       uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.AddHealthWhenCharacterHeals]
       name: AddHealthWhenCharacterHeals
       fullName: Tests.CharacterShould.AddHealthWhenCharacterHeals
       resultStatus: 1
-      duration: 0.1541044
+      duration: 0.1307392
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1016
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.BeInRangeToMakeAnAttack]
+      name: BeInRangeToMakeAnAttack
+      fullName: Tests.CharacterShould.BeInRangeToMakeAnAttack
+      resultStatus: 0
+      duration: 0
       messages: 
       output: 
       stacktrace: 
@@ -927,7 +944,7 @@ MonoBehaviour:
       name: DieWhenHealthReachesCero
       fullName: Tests.CharacterShould.DieWhenHealthReachesCero
       resultStatus: 1
-      duration: 0.0019342
+      duration: 0.0020504
       messages: 
       output: 
       stacktrace: 
@@ -944,7 +961,7 @@ MonoBehaviour:
       name: DoHalfDamageIfEnemyIsFiveOrMoreLevelsAbove
       fullName: Tests.CharacterShould.DoHalfDamageIfEnemyIsFiveOrMoreLevelsAbove
       resultStatus: 1
-      duration: 0.0061258
+      duration: 0.0039246
       messages: 
       output: 
       stacktrace: 
@@ -960,14 +977,45 @@ MonoBehaviour:
       uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow]
       name: DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow
       fullName: Tests.CharacterShould.DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow
-      resultStatus: 2
-      duration: 0.0063376
-      messages: "  Expected: 700\r\n  But was:  800\r\n"
+      resultStatus: 1
+      duration: 0.0005545
+      messages: 
       output: 
-      stacktrace: 'at Tests.CharacterShould.DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow
-        () [0x0006f] in D:\Proyectos Unity\KombatKata\KombatKataUnity\Assets\Tests\CharacterShould.cs:184
-
-'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1014
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.HaveAnAttackRangeOfTwoIfIsMelee]
+      name: HaveAnAttackRangeOfTwoIfIsMelee
+      fullName: Tests.CharacterShould.HaveAnAttackRangeOfTwoIfIsMelee
+      resultStatus: 1
+      duration: 0.0004938
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1015
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.HaveRangeOfTwentyIfIsRange]
+      name: HaveRangeOfTwentyIfIsRange
+      fullName: Tests.CharacterShould.HaveRangeOfTwentyIfIsRange
+      resultStatus: 1
+      duration: 0.0004245
+      messages: 
+      output: 
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -981,7 +1029,7 @@ MonoBehaviour:
       name: NotBeHealedWhenIsDead
       fullName: Tests.CharacterShould.NotBeHealedWhenIsDead
       resultStatus: 1
-      duration: 0.0005581
+      duration: 0.000468
       messages: 
       output: 
       stacktrace: 
@@ -998,7 +1046,7 @@ MonoBehaviour:
       name: NotDamageHimself
       fullName: Tests.CharacterShould.NotDamageHimself
       resultStatus: 1
-      duration: 0.0003678
+      duration: 0.0003884
       messages: 
       output: 
       stacktrace: 
@@ -1015,7 +1063,7 @@ MonoBehaviour:
       name: NotExceedMaxLife
       fullName: Tests.CharacterShould.NotExceedMaxLife
       resultStatus: 1
-      duration: 0.0003207
+      duration: 0.0003485
       messages: 
       output: 
       stacktrace: 
@@ -1032,7 +1080,7 @@ MonoBehaviour:
       name: NotHaveHealthBelowCero
       fullName: Tests.CharacterShould.NotHaveHealthBelowCero
       resultStatus: 1
-      duration: 0.0004835
+      duration: 0.0004491
       messages: 
       output: 
       stacktrace: 
@@ -1049,7 +1097,7 @@ MonoBehaviour:
       name: ShouldInitializeAlive
       fullName: Tests.CharacterShould.ShouldInitializeAlive
       resultStatus: 1
-      duration: 0.0006
+      duration: 0.0005116
       messages: 
       output: 
       stacktrace: 
@@ -1066,7 +1114,7 @@ MonoBehaviour:
       name: ShouldInitializeWithExpectedLevel
       fullName: Tests.CharacterShould.ShouldInitializeWithExpectedLevel
       resultStatus: 1
-      duration: 0.0003333
+      duration: 0.0003691
       messages: 
       output: 
       stacktrace: 
@@ -1083,7 +1131,7 @@ MonoBehaviour:
       name: ShouldInitializeWithExpectedLife
       fullName: Tests.CharacterShould.ShouldInitializeWithExpectedLife
       resultStatus: 1
-      duration: 0.0003156
+      duration: 0.0003392
       messages: 
       output: 
       stacktrace: 
@@ -1100,7 +1148,7 @@ MonoBehaviour:
       name: SubstractHealthWhenCharacterAttacks
       fullName: Tests.CharacterShould.SubstractHealthWhenCharacterAttacks
       resultStatus: 1
-      duration: 0.0004726
+      duration: 0.0004759
       messages: 
       output: 
       stacktrace: 
@@ -1112,17 +1160,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
-    m_ResultText: "DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow (0,006s)\n---\nExpected:
-      700\r\n  But was:  800\n---\nat Tests.CharacterShould.DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow
-      () [0x0006f] in D:\\Proyectos Unity\\KombatKata\\KombatKataUnity\\Assets\\Tests\\CharacterShould.cs:184"
-    m_ResultStacktrace: 'at Tests.CharacterShould.DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow
-      () [0x0006f] in D:\Proyectos Unity\KombatKata\KombatKataUnity\Assets\Tests\CharacterShould.cs:184
-
-'
+    m_ResultText: HaveRangeOfTwentyIfIsRange (0,000s)
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3d9a178c
-      m_LastClickedID: -1944610243
+      m_SelectedIDs: 04e2ed14
+      m_LastClickedID: 351134212
       m_ExpandedIDs: 0692ac899eadc58b2400629f67e4adaa3cc17bbd333c4bbf477cbccb96e68de5e557abf7f7d55107210b332692ad6e30e9dc9b408359db41ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0

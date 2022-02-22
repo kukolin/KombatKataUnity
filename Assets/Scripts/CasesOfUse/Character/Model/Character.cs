@@ -12,7 +12,8 @@ namespace Scripts.Character
         private bool isAlive;
         private int damage;
         private int healingPowerAmount;
-
+        private IRoleClass _roleClass;
+        private int position;
         public Character()
         {
             currentLife = maxLife;
@@ -20,6 +21,12 @@ namespace Scripts.Character
             isAlive = true;
             damage = 200;
             healingPowerAmount = 150;
+           
+        }
+
+        public Character(IRoleClass roleClass) : base()
+        {
+            _roleClass = roleClass;
         }
 
         public int GetCurrentLife()
@@ -54,6 +61,14 @@ namespace Scripts.Character
             return healingPowerAmount;
         }
 
+        public IRoleClass GetRole()
+        {
+            return _roleClass;
+        }
+        public int GetPosition()
+        {
+            return position;
+        }
         public void ReceiveHealing(int healAmount)
         {
             if (isAlive)
