@@ -11,6 +11,7 @@ namespace Scripts.Character
         private int currentLevel;
         private bool isAlive;
         private int damage;
+        private int healingPowerAmount;
 
         public Character()
         {
@@ -18,6 +19,7 @@ namespace Scripts.Character
             currentLevel = 1;
             isAlive = true;
             damage = 200;
+            healingPowerAmount = 150;
         }
 
         public int GetCurrentLife()
@@ -37,12 +39,27 @@ namespace Scripts.Character
 
         public void ReceiveDamage(int damage)
         {
-            currentLife -= damage;
+            currentLife = damage > currentLife ? 0 : currentLife - damage;
+
+            isAlive = currentLife > 0;
         }
 
-        public int GetDamage()
+        public int GetAttackDamage()
         {
             return damage;
+        }
+
+        public int GetHealPowerAmount()
+        {
+            return healingPowerAmount;
+        }
+
+        public void ReceiveHealing(int healAmount)
+        {
+            if (isAlive)
+            {   
+                currentLife = currentLife + healAmount >= maxLife ? maxLife : currentLife + healAmount;
+            }      
         }
     }
 }

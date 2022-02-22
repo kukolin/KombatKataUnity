@@ -8,8 +8,12 @@ namespace Scripts.Character
     public interface ICharacter 
     {
         void ReceiveDamage(int amount);
-        int GetDamage(); 
+        int GetAttackDamage();
         int GetCurrentLife();
+        int GetCurrentLevel();
+        bool IsAlive();
+        int GetHealPowerAmount();
+        void ReceiveHealing(int amount);
     }
 }
 

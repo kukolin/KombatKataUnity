@@ -17,11 +17,11 @@ MonoBehaviour:
     x: 0
     y: 43
     width: 1920
-    height: 997
+    height: 989
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,7 +45,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
-    height: 997
+    height: 989
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 977
+    y: 969
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -105,17 +105,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 6}
-  - {fileID: 14}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1920
-    height: 947
-  m_MinSize: {x: 881, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+    height: 939
+  m_MinSize: {x: 503, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 103
+  controlID: 56
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,17 +130,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 7}
-  - {fileID: 11}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1468
-    height: 947
-  m_MinSize: {x: 605, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
+    height: 939
+  m_MinSize: {x: 402, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 17
+  controlID: 57
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -156,17 +156,16 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8}
   - {fileID: 9}
-  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1468
-    height: 676
-  m_MinSize: {x: 605, y: 221}
-  m_MaxSize: {x: 12005, y: 4021}
+    height: 581
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 18
+  controlID: 58
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,12 +184,12 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 268
-    height: 676
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+    height: 581
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -210,68 +209,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 268
     y: 0
-    width: 496
-    height: 676
+    width: 1200
+    height: 581
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 18}
+  - {fileID: 14}
+  - {fileID: 12}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 764
-    y: 0
-    width: 704
-    height: 676
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 12}
-  - {fileID: 13}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 676
-    width: 1468
-    height: 271
-  m_MinSize: {x: 333, y: 271}
-  m_MaxSize: {x: 14003, y: 10021}
-  vertical: 0
-  controlID: 109
---- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -287,45 +236,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 764
-    height: 271
+    y: 581
+    width: 1468
+    height: 358
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 764
-    y: 0
-    width: 704
-    height: 271
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 20}
-  m_Panes:
-  - {fileID: 20}
-  - {fileID: 21}
-  - {fileID: 22}
-  m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &14
+  m_LastSelected: 1
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -335,7 +257,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -343,16 +265,16 @@ MonoBehaviour:
     x: 1468
     y: 0
     width: 452
-    height: 947
-  m_MinSize: {x: 276, y: 71}
+    height: 939
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 23}
-  - {fileID: 24}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &15
+  - {fileID: 18}
+  - {fileID: 19}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -373,10 +295,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 764
-    y: 73
-    width: 702
-    height: 655
+    x: 214.40001
+    y: 73.6
+    width: 958
+    height: 431
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -386,7 +308,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 702, y: 562}
+  m_TargetSize: {x: 512, y: 410}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -395,16 +317,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 01000000000000001c00000013000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 01000000000000001b00000011000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -351
-    m_HBaseRangeMax: 351
-    m_VBaseRangeMin: -281
-    m_VBaseRangeMax: 281
+    m_HBaseRangeMin: -256
+    m_HBaseRangeMax: 256
+    m_VBaseRangeMin: -205
+    m_VBaseRangeMax: 205
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -422,29 +344,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 702
-      height: 634
+      width: 958
+      height: 410
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 351, y: 317}
+    m_Translation: {x: 479, y: 205}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -351
-      y: -317
-      width: 702
-      height: 634
+      x: -479
+      y: -205
+      width: 958
+      height: 410
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 702, y: 655}
+  m_LastWindowPixelSize: {x: 958, y: 431}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000101000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &16
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -468,14 +390,14 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 267
-    height: 655
+    height: 560
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 72c4ffff
+      m_ExpandedIDs: 38b6ffff3cb7ffffbab7ffff36b8ffffcabbffff9ebeffff96bfffffe4c7ffff0ccaffff92cbffff32ccffff98ccffffecccffffe2cdffffc2d0ffffeed0ffff82d1ffff8cd1ffffced1ffff42d2ffff84d2ffff40d3ffff84d3fffff4d3ffff36d4ffff98d5ffffe2d5ffffe6d6ffff26d7ffff90d7ffffd6d7ffff3cd8ffff7ad8ffffd0d9ffff10daffff28daffff4cdaffffa8dbffffe4dbffff52dcffff94dcfffffedcffff22ddffff38deffff5cdeffffc8deffff04dfffff5ce0ffff80e0ffffe8e0ffff24e1ffffdae1ffff12e2ffffc2e2fffffae2ffffc8e5ffff00e6ffff66e6ffff8ae6fffface6ffffe4e6ffff52e7ffff8ee7ffff0ceaffff30eaffff06ebffff2aebffff30ecffff54ecffffc4ecffffe8ecffff9cedffffc0edffff2ceeffff50eeffffb8eeffffdceeffff42efffff66efffffd0effffff4efffffa8f0ffffccf0ffff9cf3ffffc0f3ffff76f4ffffaaf4fffffef5ffff22f6ffffe2f6ffff16f7ffff7af7ffffaef7ffff02f9ffff38f9ffffb4faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -499,7 +421,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &17
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -522,22 +444,22 @@ MonoBehaviour:
     serializedVersion: 2
     x: 268
     y: 73
-    width: 494
-    height: 655
+    width: 1198
+    height: 560
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 322.85248, y: 649.8955, z: -248.6238}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -565,7 +487,7 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -573,7 +495,7 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -583,17 +505,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 837.5437
+    m_Value: 10
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -614,7 +536,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -641,7 +563,7 @@ MonoBehaviour:
     height: 623
   m_ViewDataDictionary: {fileID: 0}
   m_SplitPaneLeftWidth: 0
---- !u!114 &19
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -663,9 +585,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 749
-    width: 763
-    height: 250
+    y: 654
+    width: 1467
+    height: 337
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -680,36 +602,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: 60
-  m_LastProjectPath: D:\Biblioteca\QuarkAcademy\CombatKata\Combat Kata
+  m_LastProjectPath: D:\Proyectos Unity\KombatKata\KombatKataUnity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2e650000
-    m_LastClickedID: 25902
-    m_ExpandedIDs: 000000002e65000000ca9a3b
+    scrollPos: {x: 0, y: 93.452515}
+    m_SelectedIDs: 443c0000
+    m_LastClickedID: 15428
+    m_ExpandedIDs: 00000000423c0000463c0000483c0000503c0000563c00009c3c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Assemblies
+      m_OriginalName: Assemblies
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 15516
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -748,7 +670,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e64200005a410000fa3f00004a4800002e48030022480300104d0000265f000072f8000042740200d0550000d8400000e06902002054000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -765,7 +687,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -777,7 +699,7 @@ MonoBehaviour:
     m_GridSize: 60
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &20
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -798,105 +720,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 764
-    y: 749
-    width: 702
+    x: 0
+    y: 525.60004
+    width: 1173
     height: 250
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &21
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animation
-    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 764
-    y: 749
-    width: 702
-    height: 250
-  m_ViewDataDictionary: {fileID: 0}
-  m_LockTracker:
-    m_IsLocked: 0
-  m_LastSelectedObjectID: -1336
---- !u!114 &22
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 764
-    y: 749
-    width: 702
-    height: 250
-  m_ViewDataDictionary: {fileID: 0}
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: 8482502715676268630, guid: 044f1b8d4f58f2b4996d1b1f00aa74f0, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 044f1b8d4f58f2b4996d1b1f00aa74f0,
-    type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 8482502715676268630, guid: 044f1b8d4f58f2b4996d1b1f00aa74f0,
-      type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 1
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &23
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -917,24 +746,25 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1468
-    y: 73
-    width: 451
-    height: 926
+    x: 1174.4
+    y: 73.6
+    width: 361
+    height: 702
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
-  m_ObjectsLockedBeforeSerialization: []
+  m_ObjectsLockedBeforeSerialization:
+  - {fileID: 5897886265953266890, guid: 58992e1d0f03ce241be462707db11188, type: 3}
   m_InstanceIDsLockedBeforeSerialization: 
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_PreviewResizer:
     m_CachedPref: 192
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 15438
   m_LastVerticalScrollValue: 0
---- !u!114 &24
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -957,19 +787,19 @@ MonoBehaviour:
     x: 1468
     y: 73
     width: 451
-    height: 926
+    height: 918
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 310
+    ID: 408
     splitterInitialOffset: 0
     currentActiveSplitter: -1
-    realSizes: 82020000d6000000
+    realSizes: 7c020000d4000000
     relativeSizes:
     - 0.75
     - 0.25
     minSizes: 2000000020000000
     maxSizes: 0000000000000000
-    lastTotalSize: 856
+    lastTotalSize: 848
     splitSize: 6
     xOffset: 0
   m_TestTypeToolbarIndex: 1
@@ -1009,14 +839,14 @@ MonoBehaviour:
       availableCategories: []
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 24}
+    m_Window: {fileID: 19}
     m_NewResultList:
     - id: 1000
-      uniqueId: '[TopicTwister][suite]'
-      name: TopicTwister
-      fullName: TopicTwister
+      uniqueId: '[CombatKata][suite]'
+      name: CombatKata
+      fullName: CombatKata
       resultStatus: 2
-      duration: 0.0417513
+      duration: 0.240466
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1027,12 +857,12 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1024
-      uniqueId: '[TestEntities][C:/Users/PC MASTER RACE/Desktop/QuarkAcademy/projects/proyecto-equipo-4/Library/ScriptAssemblies/TestEntities.dll][suite]'
-      name: TestEntities.dll
-      fullName: C:/Users/PC MASTER RACE/Desktop/QuarkAcademy/projects/proyecto-equipo-4/Library/ScriptAssemblies/TestEntities.dll
+    - id: 1007
+      uniqueId: '[Tests.dll][suite]'
+      name: Tests.dll
+      fullName: D:/Proyectos Unity/KombatKata/KombatKataUnity/Library/ScriptAssemblies/Tests.dll
       resultStatus: 2
-      duration: 0.0122184
+      duration: 0.1975323
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1042,366 +872,14 @@ MonoBehaviour:
       isSuite: 1
       categories: []
       parentId: 1000
-      parentUniqueId: '[TopicTwister][suite]'
-    - id: 1001
-      uniqueId: TestEntities.dll/[TestEntities][OpponentWordsShould][suite]
-      name: OpponentWordsShould
-      fullName: OpponentWordsShould
-      resultStatus: 2
-      duration: 0.0070295
-      messages: One or more child tests had errors
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
-        This is not allowed.  MonoBehaviours can only be added using AddComponent().
-        Alternatively, your script can inherit from ScriptableObject or no base class
-        at all
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1024
-      parentUniqueId: '[TestEntities][C:/Users/PC MASTER RACE/Desktop/QuarkAcademy/projects/proyecto-equipo-4/Library/ScriptAssemblies/TestEntities.dll][suite]'
-    - id: 1002
-      uniqueId: TestEntities.dll/OpponentWordsShould/[TestEntities][OpponentWordsShould.GenerateAValidRandomWord]
-      name: GenerateAValidRandomWord
-      fullName: OpponentWordsShould.GenerateAValidRandomWord
-      resultStatus: 1
-      duration: 0.0154918
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: TestEntities.dll/[TestEntities][OpponentWordsShould][suite]
-    - id: 1003
-      uniqueId: TestEntities.dll/OpponentWordsShould/[TestEntities][OpponentWordsShould.GenerateListOfValidAnswers]
-      name: GenerateListOfValidAnswers
-      fullName: OpponentWordsShould.GenerateListOfValidAnswers
-      resultStatus: 2
-      duration: 0.0018994
-      messages: "  Expected string length 1 but was 8. Strings differ at index 0.\r\n 
-        Expected: \" \"\r\n  But was:  \"ARANDANO\"\r\n  -----------^\r\n"
-      output: 
-      stacktrace: 'at OpponentWordsShould.GenerateListOfValidAnswers () [0x00016]
-        in C:\Users\PC MASTER RACE\Desktop\QuarkAcademy\projects\proyecto-equipo-4\Assets\Tests\TestEntities\OpponentWordsShould.cs:50
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: TestEntities.dll/[TestEntities][OpponentWordsShould][suite]
-    - id: 1020
-      uniqueId: TestEntities.dll/[TestEntities][Test][suite]
-      name: Test
-      fullName: Test
-      resultStatus: 2
-      duration: 0.0113923
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1018
-      parentUniqueId: '[TestEntities.dll][suite]'
-    - id: 1007
-      uniqueId: TestEntities.dll/Test/[TestEntities][Test.CategoriesViewShould][suite]
-      name: CategoriesViewShould
-      fullName: Test.CategoriesViewShould
-      resultStatus: 2
-      duration: 0.0067311
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1020
-      parentUniqueId: TestEntities.dll/[TestEntities][Test][suite]
-    - id: 1009
-      uniqueId: TestEntities.dll/Test/CategoriesViewShould/[TestEntities][Test.CategoriesViewShould.AllCategoriesContainsRandomCategories]
-      name: AllCategoriesContainsRandomCategories
-      fullName: Test.CategoriesViewShould.AllCategoriesContainsRandomCategories
-      resultStatus: 1
-      duration: 0.0030085
-      messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
-        This is not allowed.  MonoBehaviours can only be added using AddComponent().
-        Alternatively, your script can inherit from ScriptableObject or no base class
-        at all
-
-        Jsons/Categories
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1007
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.CategoriesViewShould][suite]
+      parentUniqueId: '[CombatKata][suite]'
     - id: 1008
-      uniqueId: TestEntities.dll/Test/CategoriesViewShould/[TestEntities][Test.CategoriesViewShould.CallAllCategoriesFromJson]
-      name: CallAllCategoriesFromJson
-      fullName: Test.CategoriesViewShould.CallAllCategoriesFromJson
-      resultStatus: 2
-      duration: 0.0023999
-      messages: "  Expected: 5\r\n  But was:  9\r\n"
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
-        This is not allowed.  MonoBehaviours can only be added using AddComponent().
-        Alternatively, your script can inherit from ScriptableObject or no base class
-        at all
-
-        Jsons/Categories
-
-'
-      stacktrace: 'at Test.CategoriesViewShould.CallAllCategoriesFromJson () [0x0001a]
-        in C:\Users\PC MASTER RACE\Desktop\QuarkAcademy\projects\proyecto-equipo-4\Assets\Tests\TestEntities\CategoriesViewShould.cs:26
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1007
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.CategoriesViewShould][suite]
-    - id: 1010
-      uniqueId: TestEntities.dll/Test/CategoriesViewShould/[TestEntities][Test.CategoriesViewShould.SaveTheFiveInGameCategories]
-      name: SaveTheFiveInGameCategories
-      fullName: Test.CategoriesViewShould.SaveTheFiveInGameCategories
-      resultStatus: 1
-      duration: 0.0063733
-      messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
-        This is not allowed.  MonoBehaviours can only be added using AddComponent().
-        Alternatively, your script can inherit from ScriptableObject or no base class
-        at all
-
-        Jsons/Categories
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1007
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.CategoriesViewShould][suite]
-    - id: 1013
-      uniqueId: TestEntities.dll/Test/[TestEntities][Test.HomeShould][suite]
-      name: HomeShould
-      fullName: Test.HomeShould
-      resultStatus: 1
-      duration: 0.1630641
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1026
-      parentUniqueId: TestEntities.dll/[TestEntities][Test][suite]
-    - id: 1014
-      uniqueId: TestEntities.dll/Test/HomeShould/[TestEntities][Test.HomeShould.CreateGameSessionWith3Rounds]
-      name: CreateGameSessionWith3Rounds
-      fullName: Test.HomeShould.CreateGameSessionWith3Rounds
-      resultStatus: 1
-      duration: 0.1411731
-      messages: 
-      output: 'Jsons/UserList
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1013
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.HomeShould][suite]
-    - id: 1015
-      uniqueId: TestEntities.dll/Test/HomeShould/[TestEntities][Test.HomeShould.CreateGameSessionWith3RoundsWith2Turns]
-      name: CreateGameSessionWith3RoundsWith2Turns
-      fullName: Test.HomeShould.CreateGameSessionWith3RoundsWith2Turns
-      resultStatus: 1
-      duration: 0.0044482
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1013
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.HomeShould][suite]
-    - id: 1016
-      uniqueId: TestEntities.dll/Test/HomeShould/[TestEntities][Test.HomeShould.CreateGameSessionWithPlayerAndOpponent]
-      name: CreateGameSessionWithPlayerAndOpponent
-      fullName: Test.HomeShould.CreateGameSessionWithPlayerAndOpponent
-      resultStatus: 1
-      duration: 0.0053895
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1013
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.HomeShould][suite]
-    - id: 1011
-      uniqueId: TestEntities.dll/Test/[TestEntities][Test.RoundControllerShould][suite]
-      name: RoundControllerShould
-      fullName: Test.RoundControllerShould
-      resultStatus: 1
-      duration: 0.0246106
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1020
-      parentUniqueId: TestEntities.dll/[TestEntities][Test][suite]
-    - id: 1012
-      uniqueId: TestEntities.dll/Test/RoundControllerShould/[TestEntities][Test.RoundControllerShould.CreateLocalRoundInFolder]
-      name: CreateLocalRoundInFolder
-      fullName: Test.RoundControllerShould.CreateLocalRoundInFolder
-      resultStatus: 1
-      duration: 0.0040001
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1011
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.RoundControllerShould][suite]
-    - id: 1014
-      uniqueId: TestEntities.dll/Test/RoundControllerShould/[TestEntities][Test.RoundControllerShould.IsLocalRoundContainsInfo]
-      name: IsLocalRoundContainsInfo
-      fullName: Test.RoundControllerShould.IsLocalRoundContainsInfo
-      resultStatus: 1
-      duration: 0.0009137
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1011
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.RoundControllerShould][suite]
-    - id: 1013
-      uniqueId: TestEntities.dll/Test/RoundControllerShould/[TestEntities][Test.RoundControllerShould.LoadLocalRoundInFolder]
-      name: LoadLocalRoundInFolder
-      fullName: Test.RoundControllerShould.LoadLocalRoundInFolder
-      resultStatus: 1
-      duration: 0.0015536
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1011
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.RoundControllerShould][suite]
-    - id: 1015
-      uniqueId: TestEntities.dll/Test/[TestEntities][Test.ShowRandomLetterShould][suite]
-      name: ShowRandomLetterShould
-      fullName: Test.ShowRandomLetterShould
-      resultStatus: 1
-      duration: 0.0159775
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1020
-      parentUniqueId: TestEntities.dll/[TestEntities][Test][suite]
-    - id: 1016
-      uniqueId: TestEntities.dll/Test/ShowRandomLetterShould/[TestEntities][Test.ShowRandomLetterShould.GenerateARandomLetter]
-      name: GenerateARandomLetter
-      fullName: Test.ShowRandomLetterShould.GenerateARandomLetter
-      resultStatus: 1
-      duration: 0.0005996
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1015
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.ShowRandomLetterShould][suite]
-    - id: 1017
-      uniqueId: TestEntities.dll/Test/ShowRandomLetterShould/[TestEntities][Test.ShowRandomLetterShould.SaveTheLetterInTheFile]
-      name: SaveTheLetterInTheFile
-      fullName: Test.ShowRandomLetterShould.SaveTheLetterInTheFile
-      resultStatus: 1
-      duration: 0.003534
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1015
-      parentUniqueId: TestEntities.dll/Test/[TestEntities][Test.ShowRandomLetterShould][suite]
-    - id: 1019
-      uniqueId: TestEntities.dll/[TestEntities][Tests][suite]
+      uniqueId: Tests.dll/[Tests][suite]
       name: Tests
       fullName: Tests
-      resultStatus: 1
-      duration: 0.0626822
-      messages: 
+      resultStatus: 2
+      duration: 0.1957122
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1409,15 +887,15 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1018
-      parentUniqueId: '[TestEntities.dll][suite]'
+      parentId: 1007
+      parentUniqueId: '[Tests.dll][suite]'
     - id: 1001
-      uniqueId: TestEntities.dll/Tests/[TestEntities][Tests.WordValidationShould][suite]
-      name: WordValidationShould
-      fullName: Tests.WordValidationShould
-      resultStatus: 1
-      duration: 0.0528475
-      messages: 
+      uniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+      name: CharacterShould
+      fullName: Tests.CharacterShould
+      resultStatus: 2
+      duration: 0.1939178
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1425,14 +903,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1019
-      parentUniqueId: TestEntities.dll/[TestEntities][Tests][suite]
-    - id: 1002
-      uniqueId: TestEntities.dll/Tests/WordValidationShould/[TestEntities][Tests.WordValidationShould.HaveFiveCategories]
-      name: HaveFiveCategories
-      fullName: Tests.WordValidationShould.HaveFiveCategories
+      parentId: 1008
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1008
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.AddHealthWhenCharacterHeals]
+      name: AddHealthWhenCharacterHeals
+      fullName: Tests.CharacterShould.AddHealthWhenCharacterHeals
       resultStatus: 1
-      duration: 0.0221966
+      duration: 0.1541044
       messages: 
       output: 
       stacktrace: 
@@ -1443,13 +921,13 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentId: 1001
-      parentUniqueId: TestEntities.dll/Tests/[TestEntities][Tests.WordValidationShould][suite]
-    - id: 1003
-      uniqueId: TestEntities.dll/Tests/WordValidationShould/[TestEntities][Tests.WordValidationShould.ValidateAllEmptyWrittenWords]
-      name: ValidateAllEmptyWrittenWords
-      fullName: Tests.WordValidationShould.ValidateAllEmptyWrittenWords
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1007
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.DieWhenHealthReachesCero]
+      name: DieWhenHealthReachesCero
+      fullName: Tests.CharacterShould.DieWhenHealthReachesCero
       resultStatus: 1
-      duration: 0.0067592
+      duration: 0.0019342
       messages: 
       output: 
       stacktrace: 
@@ -1460,13 +938,13 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentId: 1001
-      parentUniqueId: TestEntities.dll/Tests/[TestEntities][Tests.WordValidationShould][suite]
-    - id: 1005
-      uniqueId: TestEntities.dll/Tests/WordValidationShould/[TestEntities][Tests.WordValidationShould.ValidateAllWords]
-      name: ValidateAllWords
-      fullName: Tests.WordValidationShould.ValidateAllWords
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1012
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.DoHalfDamageIfEnemyIsFiveOrMoreLevelsAbove]
+      name: DoHalfDamageIfEnemyIsFiveOrMoreLevelsAbove
+      fullName: Tests.CharacterShould.DoHalfDamageIfEnemyIsFiveOrMoreLevelsAbove
       resultStatus: 1
-      duration: 0.0064113
+      duration: 0.0061258
       messages: 
       output: 
       stacktrace: 
@@ -1477,13 +955,33 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentId: 1001
-      parentUniqueId: TestEntities.dll/Tests/[TestEntities][Tests.WordValidationShould][suite]
-    - id: 1004
-      uniqueId: TestEntities.dll/Tests/WordValidationShould/[TestEntities][Tests.WordValidationShould.ValidateAWord]
-      name: ValidateAWord
-      fullName: Tests.WordValidationShould.ValidateAWord
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1013
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow]
+      name: DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow
+      fullName: Tests.CharacterShould.DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow
+      resultStatus: 2
+      duration: 0.0063376
+      messages: "  Expected: 700\r\n  But was:  800\r\n"
+      output: 
+      stacktrace: 'at Tests.CharacterShould.DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow
+        () [0x0006f] in D:\Proyectos Unity\KombatKata\KombatKataUnity\Assets\Tests\CharacterShould.cs:184
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1009
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.NotBeHealedWhenIsDead]
+      name: NotBeHealedWhenIsDead
+      fullName: Tests.CharacterShould.NotBeHealedWhenIsDead
       resultStatus: 1
-      duration: 0.0063666
+      duration: 0.0005581
       messages: 
       output: 
       stacktrace: 
@@ -1494,13 +992,47 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentId: 1001
-      parentUniqueId: TestEntities.dll/Tests/[TestEntities][Tests.WordValidationShould][suite]
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1011
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.NotDamageHimself]
+      name: NotDamageHimself
+      fullName: Tests.CharacterShould.NotDamageHimself
+      resultStatus: 1
+      duration: 0.0003678
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1010
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.NotExceedMaxLife]
+      name: NotExceedMaxLife
+      fullName: Tests.CharacterShould.NotExceedMaxLife
+      resultStatus: 1
+      duration: 0.0003207
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
     - id: 1006
-      uniqueId: TestEntities.dll/Tests/WordValidationShould/[TestEntities][Tests.WordValidationShould.ValidateLetter]
-      name: ValidateLetter
-      fullName: Tests.WordValidationShould.ValidateLetter
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.NotHaveHealthBelowCero]
+      name: NotHaveHealthBelowCero
+      fullName: Tests.CharacterShould.NotHaveHealthBelowCero
       resultStatus: 1
-      duration: 0.0071129
+      duration: 0.0004835
       messages: 
       output: 
       stacktrace: 
@@ -1511,20 +1043,87 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentId: 1001
-      parentUniqueId: TestEntities.dll/Tests/[TestEntities][Tests.WordValidationShould][suite]
-    m_ResultText: "GenerateListOfValidAnswers (0.002s)\n---\nExpected string length
-      1 but was 8. Strings differ at index 0.\r\n  Expected: \" \"\r\n  But was: 
-      \"ARANDANO\"\r\n  -----------^\n---\nat OpponentWordsShould.GenerateListOfValidAnswers
-      () [0x00016] in C:\\Users\\PC MASTER RACE\\Desktop\\QuarkAcademy\\projects\\proyecto-equipo-4\\Assets\\Tests\\TestEntities\\OpponentWordsShould.cs:50"
-    m_ResultStacktrace: 'at OpponentWordsShould.GenerateListOfValidAnswers () [0x00016]
-      in C:\Users\PC MASTER RACE\Desktop\QuarkAcademy\projects\proyecto-equipo-4\Assets\Tests\TestEntities\OpponentWordsShould.cs:50
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1004
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.ShouldInitializeAlive]
+      name: ShouldInitializeAlive
+      fullName: Tests.CharacterShould.ShouldInitializeAlive
+      resultStatus: 1
+      duration: 0.0006
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1003
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.ShouldInitializeWithExpectedLevel]
+      name: ShouldInitializeWithExpectedLevel
+      fullName: Tests.CharacterShould.ShouldInitializeWithExpectedLevel
+      resultStatus: 1
+      duration: 0.0003333
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.ShouldInitializeWithExpectedLife]
+      name: ShouldInitializeWithExpectedLife
+      fullName: Tests.CharacterShould.ShouldInitializeWithExpectedLife
+      resultStatus: 1
+      duration: 0.0003156
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    - id: 1005
+      uniqueId: Tests.dll/Tests/CharacterShould/[Tests][Tests.CharacterShould.SubstractHealthWhenCharacterAttacks]
+      name: SubstractHealthWhenCharacterAttacks
+      fullName: Tests.CharacterShould.SubstractHealthWhenCharacterAttacks
+      resultStatus: 1
+      duration: 0.0004726
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CharacterShould][suite]
+    m_ResultText: "DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow (0,006s)\n---\nExpected:
+      700\r\n  But was:  800\n---\nat Tests.CharacterShould.DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow
+      () [0x0006f] in D:\\Proyectos Unity\\KombatKata\\KombatKataUnity\\Assets\\Tests\\CharacterShould.cs:184"
+    m_ResultStacktrace: 'at Tests.CharacterShould.DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow
+      () [0x0006f] in D:\Proyectos Unity\KombatKata\KombatKataUnity\Assets\Tests\CharacterShould.cs:184
 
 '
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 113953a3
-      m_LastClickedID: -1554826991
-      m_ExpandedIDs: 0692ac899eadc58b2400629f67e4adaa3cc17bbd477cbccb96e68de5f7d55107210b3326e9dc9b40ffffff7f
+      m_SelectedIDs: 3d9a178c
+      m_LastClickedID: -1944610243
+      m_ExpandedIDs: 0692ac899eadc58b2400629f67e4adaa3cc17bbd333c4bbf477cbccb96e68de5e557abf7f7d55107210b332692ad6e30e9dc9b408359db41ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

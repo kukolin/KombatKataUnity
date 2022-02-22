@@ -4,7 +4,8 @@ using UnityEngine;
 using NUnit.Framework;
 using Scripts.Character;
 using Scripts.BattleSystem;
-using UnityEngine.TestTools;
+using NSubstitute;
+using System;
 
 /*
 All Characters, when created, have:
@@ -20,6 +21,17 @@ A Character can Heal a Character.
 
 Dead characters cannot be healed
 Healing cannot raise health above 1000
+
+//------------------------------ITERATION TWO ---------------------------------------------------------
+
+A Character cannot Deal Damage to itself.
+
+A Character can only Heal itself.
+
+When dealing damage:
+If the target is 5 or more Levels above the attacker, Damage is reduced by 50%
+If the target is 5 or more Levels below the attacker, Damage is increased by 50%
+
 */
 
 namespace Tests
@@ -28,11 +40,19 @@ namespace Tests
     {
         private int expectedLife;
         private int expectedLevel;
-        private Character character;
+        private ICharacter character;
+        private ICharacter dummyEnemy;
+        private ICharacter mockCharacter;
+        private ICharacter dummyAlly;
+        BattleSystem battleSystem;
 
         [SetUp]
         public void CharacterSetUp()
         {
+            dummyEnemy = new Character();
+            dummyAlly = new Character();
+            battleSystem = new BattleSystem();
+            mockCharacter = Substitute.For<ICharacter>();
             character = new Character();
             expectedLevel = 1;
             expectedLife = 1000;
@@ -57,17 +77,111 @@ namespace Tests
         }
 
         [Test]
-        public void ShouldSubstractHealthWhenCharacterAttacks()
+        public void SubstractHealthWhenCharacterAttacks()
         {
-            BattleSystem battleSystem = new BattleSystem();
-
-            ICharacter dummyEnemy = new Character();
-
-            var beforeLifeToDecrease = dummyEnemy.GetCurrentLife();
+            int beforeLifeToDecrease = dummyEnemy.GetCurrentLife();
 
             battleSystem.CharacterWantsToAttack(character, dummyEnemy);
 
             Assert.Less(dummyEnemy.GetCurrentLife(), beforeLifeToDecrease);
+        }
+
+        [Test]
+        public void NotHaveHealthBelowCero()
+        {
+            int exagerateDamage = dummyEnemy.GetCurrentLife() * 2;
+            mockCharacter.GetAttackDamage().Returns(exagerateDamage);
+
+            battleSystem.CharacterWantsToAttack(mockCharacter, dummyEnemy);
+
+            Assert.AreEqual(0, dummyEnemy.GetCurrentLife());
+        }
+
+        [Test]
+        public void DieWhenHealthReachesCero()
+        {
+            int exagerateDamage = dummyEnemy.GetCurrentLife() * 2;
+            mockCharacter.GetAttackDamage().Returns(exagerateDamage);
+
+            battleSystem.CharacterWantsToAttack(mockCharacter, dummyEnemy);
+            
+            Assert.IsFalse(dummyEnemy.IsAlive());
+        }
+
+        [Test]
+        public void AddHealthWhenCharacterHeals()
+        {
+            mockCharacter.GetAttackDamage().Returns(expectedLife / 2);
+            battleSystem.CharacterWantsToAttack(mockCharacter, dummyAlly);
+
+            int lifeWhenReceiveDamage = dummyAlly.GetCurrentLife();
+
+            battleSystem.CharacterWantsToHeal(dummyAlly);
+
+            Assert.Greater(dummyAlly.GetCurrentLife(), lifeWhenReceiveDamage);
+        }
+
+        [Test]
+        public void NotBeHealedWhenIsDead()
+        {
+            mockCharacter.GetAttackDamage().Returns(expectedLife * 2);
+
+            battleSystem.CharacterWantsToAttack(mockCharacter, dummyAlly);
+            battleSystem.CharacterWantsToHeal(dummyAlly);
+
+            Assert.AreEqual(0, dummyAlly.GetCurrentLife());
+        }
+
+        [Test]
+        public void NotExceedMaxLife()
+        {
+            battleSystem.CharacterWantsToHeal(dummyAlly);
+
+            Assert.AreEqual(expectedLife, dummyAlly.GetCurrentLife());
+        }
+        [Test]
+        public void NotDamageHimself()
+        {
+            battleSystem.CharacterWantsToAttack(character, character);
+
+            Assert.AreEqual(expectedLife, character.GetCurrentLife());
+        }
+        //[Test] PREGUNTAR A SEBAS SI HACE FALTA TESTEAR ESTO
+        //public void OnlyHealHimself()
+        //{
+        //    mockCharacter.GetAttackDamage().Returns(expectedLife / 2);
+        //    battleSystem.CharacterWantsToAttack(mockCharacter, dummyAlly);
+
+        //    int lifeWhenReceiveDamage = dummyAlly.GetCurrentLife();
+
+        //    battleSystem.CharacterWantsToHeal(dummyAlly);
+
+        //    Assert.AreEqual(dummyAlly.GetCurrentLife(), lifeWhenReceiveDamage);
+        //}
+        [Test]
+        public void DoHalfDamageIfEnemyIsFiveOrMoreLevelsAbove() 
+        {
+            int lifebeforeToDecrease = dummyEnemy.GetCurrentLife();
+
+            mockCharacter.GetCurrentLevel().Returns(-6);
+            mockCharacter.GetAttackDamage().Returns(200);
+            int realDamage = (mockCharacter.GetAttackDamage() / 2);
+            battleSystem.CharacterWantsToAttack(mockCharacter, dummyEnemy);
+
+            Assert.AreEqual(lifebeforeToDecrease - realDamage, dummyEnemy.GetCurrentLife());
+        }
+
+        [Test]
+        public void DoMoreDamageIfEnemyIsFiveOrLessLevelsBelow()
+        {
+            int lifebeforeToDecrease = dummyEnemy.GetCurrentLife();
+
+            mockCharacter.GetCurrentLevel().Returns(6);
+            mockCharacter.GetAttackDamage().Returns(200);
+            int realDamage = Convert.ToInt32(mockCharacter.GetAttackDamage() * 1.5f);
+            battleSystem.CharacterWantsToAttack(mockCharacter, dummyEnemy);
+
+            Assert.AreEqual(lifebeforeToDecrease - realDamage, dummyEnemy.GetCurrentLife());
         }
     }
 }
